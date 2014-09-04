@@ -29,6 +29,7 @@ namespace UpdateGenerator
 
         static void Main(string[] args)
         {
+            loadIgnoredFilenamesFromFile("ignored.json");
             try
             {
                 foreach (string d in Directory.GetDirectories(Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location)))
