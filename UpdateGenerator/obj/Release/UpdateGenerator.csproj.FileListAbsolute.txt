@@ -1,0 +1,6 @@
+c:\Users\Crest\Documents\Visual Studio 2012\Projects\Updater\UpdateGenerator\bin\Release\UpdateGenerator.exe.config
+c:\Users\Crest\Documents\Visual Studio 2012\Projects\Updater\UpdateGenerator\bin\Release\UpdateGenerator.exe
+c:\Users\Crest\Documents\Visual Studio 2012\Projects\Updater\UpdateGenerator\bin\Release\UpdateGenerator.pdb
+c:\Users\Crest\Documents\Visual Studio 2012\Projects\Updater\UpdateGenerator\obj\Release\UpdateGenerator.exe
+c:\Users\Crest\Documents\Visual Studio 2012\Projects\Updater\UpdateGenerator\obj\Release\UpdateGenerator.pdb
+c:\Users\Crest\Documents\Visual Studio 2012\Projects\Updater\UpdateGenerator\bin\Release\Newtonsoft.Json.dll

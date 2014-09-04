@@ -1,0 +1,4 @@
+{
+	"UpdateURL": "http://www.update-site.com/root/directory/where/updates/json/stored/without/ending/in/slash",
+	"Application": "eclipse.exe"
+}

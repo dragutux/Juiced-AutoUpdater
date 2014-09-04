@@ -1,0 +1,10 @@
+c:\Users\Crest\Documents\Visual Studio 2012\Projects\Updater\Updater\bin\Release\Updater.exe.config
+c:\Users\Crest\Documents\Visual Studio 2012\Projects\Updater\Updater\bin\Release\Updater.exe
+c:\Users\Crest\Documents\Visual Studio 2012\Projects\Updater\Updater\bin\Release\Updater.pdb
+c:\Users\Crest\Documents\Visual Studio 2012\Projects\Updater\Updater\obj\Release\Updater.frmLauncher.resources
+c:\Users\Crest\Documents\Visual Studio 2012\Projects\Updater\Updater\obj\Release\Updater.Properties.Resources.resources
+c:\Users\Crest\Documents\Visual Studio 2012\Projects\Updater\Updater\obj\Release\Updater.csproj.GenerateResource.Cache
+c:\Users\Crest\Documents\Visual Studio 2012\Projects\Updater\Updater\obj\Release\Updater.exe
+c:\Users\Crest\Documents\Visual Studio 2012\Projects\Updater\Updater\obj\Release\Updater.pdb
+c:\Users\Crest\Documents\Visual Studio 2012\Projects\Updater\Updater\bin\Release\Newtonsoft.Json.dll
+c:\Users\Crest\Documents\Visual Studio 2012\Projects\Updater\Updater\obj\Release\Updater.csprojResolveAssemblyReference.cache
