@@ -14,7 +14,18 @@ namespace UpdateGenerator
     {
 
         private static Dictionary<string, byte[]> objects = new Dictionary<string, byte[]>();
+        private static List<string> ignoredFilenames = new List<string>();
         private static string currentDir = "";
+
+        static void loadIgnoredFilenamesFromFile(string filename)
+        {
+            using (StreamReader reader = File.OpenText("ignored.json"))
+            {
+                string text = reader.ReadToEnd();
+                ignoredFilenames = JsonConvert.DeserializeObject<List<string>>(text);
+            }
+
+        }
 
         static void Main(string[] args)
         {
@@ -24,9 +35,11 @@ namespace UpdateGenerator
                 {
                     foreach (string f in Directory.GetFiles(d))
                     {
-                        
                         byte[] checksum = generateCheckSum(d + @"\" + Path.GetFileName(f));
                         string filename = new DirectoryInfo(d).Name + @"\" + Path.GetFileName(f);
+
+                        if (ignoredFilenames.Contains(filename))
+                            continue;
 
                         objects.Add(filename, checksum);
                         searchDir(d);
@@ -37,6 +50,9 @@ namespace UpdateGenerator
                 {
                     byte[] checksum = generateCheckSum(Path.GetFileName(f));
                     string filename = Path.GetFileName(f);
+
+                    if (ignoredFilenames.Contains(filename))
+                        continue;
 
                     objects.Add(filename, checksum);
                 }
